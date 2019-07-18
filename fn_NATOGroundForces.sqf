@@ -109,7 +109,7 @@ sleep 1;
 	spawner setVariable ["NATOattackforce",(spawner getVariable ["NATOattackforce",[]])+[_group2],false];
 };
 
-
+// end of the air section
 
 sleep 5;
 if(_byair && _tgroup isEqualType grpNull) then {

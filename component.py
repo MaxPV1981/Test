@@ -1,6 +1,5 @@
 from collections import deque
 
-used = []
 G = {'A':{'B'}, 'B':{'C','D'}, 'C':{'A'}, 'D':{'E'}, 'E':{'F'}, 'F':{'D'},\
      'G':{'F','H'}, 'H':{'I'}, 'I':{'J'}, 'J':{'G'}, 'K':{'J'}}
 
@@ -71,7 +70,3 @@ def kosaraju(G):
     print("Количество компонент сильной связности: " + str(num))
 
 kosaraju(G)
-
-used = []
-G = dict()
-
